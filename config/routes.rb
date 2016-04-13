@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'signin_app/home'
+
+  get 'signin_app/new'
+
+  get 'signin_app/existing'
+
+  get 'signin_app/welcome'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
