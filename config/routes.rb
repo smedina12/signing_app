@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'signin_app/home'
+root 'signin_app#home'
 
   get 'signin_app/new'
 
